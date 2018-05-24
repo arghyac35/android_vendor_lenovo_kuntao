@@ -105,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat:system/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat \
     vendor/lenovo/kuntao/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin \
     vendor/lenovo/kuntao/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat \
-    vendor/lenovo/kuntao/proprietary/etc/libnfc-brcm-20797b00.conf:system/etc/libnfc-brcm-20797b00.conf \
     vendor/lenovo/kuntao/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     vendor/lenovo/kuntao/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/lenovo/kuntao/proprietary/etc/mixer_paths_qrd_sku3.xml:system/etc/mixer_paths_qrd_sku3.xml \
@@ -153,7 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib64/libvfmtztransport.so:system/lib64/libvfmtztransport.so \
     vendor/lenovo/kuntao/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
     vendor/lenovo/kuntao/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
-    vendor/lenovo/kuntao/proprietary/vendor/firmware/BCM20797B0_002.001.043.0005.0010_Generic_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20797B0_002.001.043.0005.0010_Generic_NCD_Unsigned_configdata.ncd \
     vendor/lenovo/kuntao/proprietary/vendor/lib/hw/sound_trigger.primary.msm8953.so:system/vendor/lib/hw/sound_trigger.primary.msm8953.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib/libactuator_dw9767_kuntaoof.so:system/vendor/lib/libactuator_dw9767_kuntaoof.so \
