@@ -372,11 +372,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/lenovo/kuntao/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/lenovo/kuntao/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
     vendor/lenovo/kuntao/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/lenovo/kuntao/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/lenovo/kuntao/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/lenovo/kuntao/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
@@ -385,7 +383,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/lenovo/kuntao/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/lenovo/kuntao/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/lenovo/kuntao/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/lenovo/kuntao/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/lenovo/kuntao/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
@@ -475,6 +472,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/lenovo/kuntao/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/lenovo/kuntao/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/lenovo/kuntao/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/lenovo/kuntao/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/lenovo/kuntao/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
     vendor/lenovo/kuntao/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -709,6 +707,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/activity_recognition.msm8953.so:system/vendor/lib64/hw/activity_recognition.msm8953.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/keystore.msm8953.so:system/vendor/lib64/hw/keystore.msm8953.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
@@ -767,6 +766,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
+    vendor/lenovo/kuntao/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
