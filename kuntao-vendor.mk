@@ -373,7 +373,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lenovo/kuntao/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
-    vendor/lenovo/kuntao/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
     vendor/lenovo/kuntao/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/lenovo/kuntao/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/lenovo/kuntao/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
